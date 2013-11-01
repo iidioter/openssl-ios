@@ -1,0 +1,18 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+#  import <Foundation/Foundation.h>
+#endif
+
+
+#define OPENSSL_SYS_MACOSX
+#define L_ENDIAN
+#define OPENSSL_SMALL_FOOTPRINT
+#define OPENSSL_NO_DYNAMIC_ENGINE
+#define NO_WINDOWS_BRAINDEATH
+
+#define OPENSSL_NO_MDC2
